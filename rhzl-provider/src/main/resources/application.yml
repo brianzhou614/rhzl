@@ -11,7 +11,7 @@ spring:
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver              # mysql驱动包
-    url: jdbc:sqlserver://192.168.1.12:1433;DatabaseName=biz              # 数据库名称
+    url: jdbc:sqlserver://192.168.1.12:1433;DatabaseName=gps              # 数据库名称
     username: sa
     password: bl00m2#
     dbcp2:

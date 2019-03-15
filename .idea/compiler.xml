@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="rhzlapi" />
         <module name="rhzlprovider" />
+        <module name="rhzlweb" />
       </profile>
     </annotationProcessing>
   </component>
