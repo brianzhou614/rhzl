@@ -37,7 +37,7 @@
         </javaClientGenerator>
         <!--生成对应表及类名-->
         <table tableName="vehicle_batch_day"
-               domainObjectName="vehicleBatchDay">
+               domainObjectName="VehicleBatchDay">
             <!--    enableCountByExample="false"
                 enableUpdateByExample="false"
                 enableDeleteByExample="false"

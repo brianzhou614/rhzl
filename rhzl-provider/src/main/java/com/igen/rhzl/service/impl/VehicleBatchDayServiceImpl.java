@@ -1,6 +1,7 @@
 package com.igen.rhzl.service.impl;
 
 import com.igen.rhzl.dao.VehicleBatchDayMapper;
+
 import com.igen.rhzl.entities.VehicleBatchDay;
 import com.igen.rhzl.service.VehicleBatchDayService;
 import org.springframework.beans.factory.annotation.Autowired;

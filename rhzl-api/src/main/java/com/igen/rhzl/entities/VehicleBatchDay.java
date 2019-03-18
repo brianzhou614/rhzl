@@ -5,9 +5,8 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 import java.util.Date;
-
-@Data
 @NoArgsConstructor
+@Data
 @Accessors(chain = true)
 public class VehicleBatchDay {
     private Integer id;
