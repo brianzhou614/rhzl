@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rhzlapi" />
-        <module name="rhzlprovider" />
-        <module name="rhzlweb" />
+        <module name="rhzl-api" />
+        <module name="rhzl-provider" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rhzl-web" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

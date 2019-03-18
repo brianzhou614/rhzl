@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mybatis/mapper.vehicleBatchDayMapper" >
+  <resultMap id="BaseResultMap" type="com.igen.rhzl.entities.vehicleBatchDay" >
+    <result column="id" property="id" jdbcType="INTEGER" />
+    <result column="batchid" property="batchid" jdbcType="VARCHAR" />
+    <result column="countday" property="countday" jdbcType="DATE" />
+    <result column="count" property="count" jdbcType="INTEGER" />
+    <result column="summileage" property="summileage" jdbcType="NUMERIC" />
+    <result column="avgmileage" property="avgmileage" jdbcType="NUMERIC" />
+    <result column="avgmileageyx" property="avgmileageyx" jdbcType="NUMERIC" />
+    <result column="sumuptime" property="sumuptime" jdbcType="NUMERIC" />
+    <result column="avguptime" property="avguptime" jdbcType="NUMERIC" />
+    <result column="avguptimeyx" property="avguptimeyx" jdbcType="NUMERIC" />
+    <result column="inefficentcnt" property="inefficentcnt" jdbcType="NUMERIC" />
+    <result column="inefficentprg" property="inefficentprg" jdbcType="NUMERIC" />
+    <result column="efficentcnt" property="efficentcnt" jdbcType="NUMERIC" />
+    <result column="efficentprg" property="efficentprg" jdbcType="NUMERIC" />
+    <result column="exceptioncnt" property="exceptioncnt" jdbcType="NUMERIC" />
+    <result column="leaseprg" property="leaseprg" jdbcType="NUMERIC" />
+    <result column="offlinecnt" property="offlinecnt" jdbcType="NUMERIC" />
+  </resultMap>
+
+</mapper>
